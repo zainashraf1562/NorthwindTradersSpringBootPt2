@@ -14,9 +14,9 @@ public class SimpleProductDAO implements IProductDAO {
     public SimpleProductDAO() {
         this.products = new ArrayList<>();
 
-        products.add(new Product("Iphone",1,500));
-        products.add(new Product("Gaming PC",2,1000));
-        products.add(new Product("Headphones",3,50));
+        products.add(new Product(1,"Iphone",1,500));
+        products.add(new Product(2,"Gaming PC",1,1000));
+        products.add(new Product(3,"Headphones",1,50));
     }
 
     @Override

@@ -112,7 +112,7 @@ public class NorthwindTradersSpringBootPt2Application {
         double unitPrice = scanner.nextDouble();
         scanner.nextLine();
 
-        Product product1 = new Product(product, categoryId, unitPrice);
+        Product product1 = new Product(productID,product, categoryId, unitPrice);
         productService.updateProducts(productID, product1);
 
         System.out.println("Updated existing Product");

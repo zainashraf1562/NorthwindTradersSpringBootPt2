@@ -3,9 +3,11 @@ package com.pluralsight.NorthwindTradersSpringBootPt2.services;
 import com.pluralsight.NorthwindTradersSpringBootPt2.dao.interfaces.IProductDAO;
 import com.pluralsight.NorthwindTradersSpringBootPt2.model.Product;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class ProductService {
     private IProductDAO productDAO;
 
